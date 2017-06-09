@@ -1,3 +1,7 @@
+/*Условие задачи:
+	Сдвиг. Циклически сдвиньте элементы массива на n позиций влево.
+*/
+
 #include<stdio.h>
 #include<cstdlib>
 #include<ctime>
@@ -5,7 +9,6 @@
 
 #define N 12
 #define RAND_MAX_ 11
-#define NULL 0
 
 int Init_n();
 void Init_Array(int a[]);
